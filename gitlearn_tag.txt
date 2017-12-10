@@ -1,0 +1,11 @@
+主要tag新建标签
+
+1. 命令git tag <name>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+2. git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+
+3. git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
+
+4. 命令git tag可以查看所有标签。
+
+5. git show <gitshow> 可以看到说明文字
